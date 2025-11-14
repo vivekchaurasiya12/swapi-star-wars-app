@@ -1,16 +1,25 @@
-# React + Vite
+# SWAPI - Star Wars Characters (No Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a small React + Vite project that lists Star Wars characters using the SWAPI (https://swapi.dev). It uses ReactJs and implements pagination, loading/error states, character cards with random images from Picsum, and a modal with extra details (including homeworld info).
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to run locally
 
-## React Compiler
+1. **Clone the repository**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+git clone https://github.com/vivekchaurasiya12/swapi-star-wars-app.git
 
-## Expanding the ESLint configuration
+2. **Navigate and run this command**
+cd vite-project
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **Start the development server**
+npm run dev
+
+4. **Visit the Url**
+Visit http://localhost:5173
+
+5. **Login with user name and password**
+Username:admin
+PassWord:admin123
