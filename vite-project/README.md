@@ -1,4 +1,4 @@
-# SWAPI - Star Wars Characters (No Tailwind)
+# SWAPI - Star Wars Characters
 
 This is a small React + Vite project that lists Star Wars characters using the SWAPI (https://swapi.dev). It uses ReactJs and implements pagination, loading/error states, character cards with random images from Picsum, and a modal with extra details (including homeworld info).
 
